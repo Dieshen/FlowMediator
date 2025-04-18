@@ -5,5 +5,4 @@
     /// </summary>
     /// <returns>Awaitable task</returns>
     public delegate Task NotificationHandlerExecutor(CancellationToken t = default);
-
 }
