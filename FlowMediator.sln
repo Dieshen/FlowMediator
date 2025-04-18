@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowMediator", "src\FlowMediator\FlowMediator.csproj", "{D078D4F5-8F8E-CC45-0AE1-E576299DD70B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowMediator.Contracts", "src\FlowMediator.Contracts\FlowMediator.Contracts.csproj", "{BD0315CD-1C5F-410B-A351-DCC5B544270A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{7DAC864A-62C0-4B69-A5A4-4441B39FA19A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D078D4F5-8F8E-CC45-0AE1-E576299DD70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D078D4F5-8F8E-CC45-0AE1-E576299DD70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D078D4F5-8F8E-CC45-0AE1-E576299DD70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D078D4F5-8F8E-CC45-0AE1-E576299DD70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0315CD-1C5F-410B-A351-DCC5B544270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0315CD-1C5F-410B-A351-DCC5B544270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0315CD-1C5F-410B-A351-DCC5B544270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0315CD-1C5F-410B-A351-DCC5B544270A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D078D4F5-8F8E-CC45-0AE1-E576299DD70B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BD0315CD-1C5F-410B-A351-DCC5B544270A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59676A47-90FF-45F9-8913-C1A045F362A1}
+	EndGlobalSection
+EndGlobal
